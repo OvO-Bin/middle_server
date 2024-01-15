@@ -1,0 +1,72 @@
+[2024-01-14 11:12:03.517000]
+ERROR
+	Traceback (most recent call last):
+[2024-01-14 11:12:03.517000]
+ERROR
+	  File "C:\Users\OvOYa\anaconda3\envs\woke\lib\site-packages\gevent\_ffi\loop.py", line 234, in python_check_callback
+[2024-01-14 11:12:03.518000]
+ERROR
+	    def python_check_callback(self, watcher_ptr): # pylint:disable=unused-argument
+[2024-01-14 11:12:03.518000]
+ERROR
+	KeyboardInterrupt
+[2024-01-14 11:12:03.518000]
+ERROR
+	2024-01-14T03:12:03Z
+[2024-01-14 11:12:03.519000]
+ERROR
+	Traceback (most recent call last):
+[2024-01-14 11:12:03.519000]
+ERROR
+	  File "appmain.py", line 31, in <module>
+[2024-01-14 11:12:03.519000]
+ERROR
+	    ser.start()
+[2024-01-14 11:12:03.519000]
+ERROR
+	  File "C:\Users\OvOYa\anaconda3\envs\woke\lib\site-packages\gfirefly-0.1.9a0alpha-py2.7.egg\gfirefly\server\server.py", line 146, in start
+[2024-01-14 11:12:03.520000]
+ERROR
+	    reactor.run()
+[2024-01-14 11:12:03.520000]
+ERROR
+	  File "C:\Users\OvOYa\anaconda3\envs\woke\lib\site-packages\gtwisted-0.2.0a0-py2.7.egg\gtwisted\core\greactor.py", line 76, in run
+[2024-01-14 11:12:03.521000]
+ERROR
+	    gevent.joinall([gevent.spawn(self.start())])
+[2024-01-14 11:12:03.521000]
+ERROR
+	  File "C:\Users\OvOYa\anaconda3\envs\woke\lib\site-packages\gtwisted-0.2.0a0-py2.7.egg\gtwisted\core\greactor.py", line 70, in start
+[2024-01-14 11:12:03.522000]
+ERROR
+	    gevent.sleep(600)
+[2024-01-14 11:12:03.522000]
+ERROR
+	  File "C:\Users\OvOYa\anaconda3\envs\woke\lib\site-packages\gevent\hub.py", line 159, in sleep
+[2024-01-14 11:12:03.523000]
+ERROR
+	    hub.wait(t)
+[2024-01-14 11:12:03.523000]
+ERROR
+	  File "src/gevent/_hub_primitives.py", line 46, in gevent.__hub_primitives.WaitOperationsGreenlet.wait
+[2024-01-14 11:12:03.524000]
+ERROR
+	  File "src/gevent/_hub_primitives.py", line 55, in gevent.__hub_primitives.WaitOperationsGreenlet.wait
+[2024-01-14 11:12:03.524000]
+ERROR
+	  File "src/gevent/_waiter.py", line 151, in gevent.__waiter.Waiter.get
+[2024-01-14 11:12:03.525000]
+ERROR
+	  File "src/gevent/_greenlet_primitives.py", line 60, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+[2024-01-14 11:12:03.525000]
+ERROR
+	  File "src/gevent/_greenlet_primitives.py", line 60, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+[2024-01-14 11:12:03.526000]
+ERROR
+	  File "src/gevent/_greenlet_primitives.py", line 64, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+[2024-01-14 11:12:03.526000]
+ERROR
+	  File "src/gevent/__greenlet_primitives.pxd", line 35, in gevent.__greenlet_primitives._greenlet_switch
+[2024-01-14 11:12:03.527000]
+ERROR
+	KeyboardInterrupt

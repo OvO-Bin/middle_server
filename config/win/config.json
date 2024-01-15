@@ -1,0 +1,29 @@
+{
+"master":{"roothost":"127.0.0.1","rootport":9002,"webport":9003,"log":"logs/master.log"},
+"servers":{
+"dbfront":{"rootport":12004,"name":"dbfront","db":true,"mem":true,"remoteport":[],"app":"game.memServer","log":"logs/dbfront.log"},
+"web":{"webport":2015,"name":"web","db":true,"mem":true,"remoteport":[{"rootport":12006,"rootname":"gate_1"},{"rootport":12007,"rootname":"gate_2"},{"rootport":12008,"rootname":"gate_3"},{"rootport":12009,"rootname":"gate_4"},{"rootport":12010,"rootname":"gate_5"},{"rootport":12004,"rootname":"dbfront"}], "app":"game.webServer"},
+"gate_1":{"rootport":12006,"name":"gate_1","db":true,"mem":true,"remoteport":[{"rootport":12004,"rootname":"dbfront"}],"app":"game.gateServer","log":"logs/gate_1.log"},
+"gate_2":{"rootport":12007,"name":"gate_2","db":true,"mem":true,"remoteport":[{"rootport":12004,"rootname":"dbfront"}],"app":"game.gateServer","log":"logs/gate_2.log"},
+"gate_3":{"rootport":12008,"name":"gate_3","db":true,"mem":true,"remoteport":[{"rootport":12004,"rootname":"dbfront"}],"app":"game.gateServer","log":"logs/gate_3.log"},
+"gate_4":{"rootport":12009,"name":"gate_4","db":true,"mem":true,"remoteport":[{"rootport":12004,"rootname":"dbfront"}],"app":"game.gateServer","log":"logs/gate_4.log"},
+"gate_5":{"rootport":12010,"name":"gate_5","db":true,"mem":true,"remoteport":[{"rootport":12004,"rootname":"dbfront"}],"app":"game.gateServer","log":"logs/gate_5.log"},
+"net_1":{"netport":12011,"name":"net_1","remoteport":[{"rootport":12006,"rootname":"gate_1"},{"rootport":12007,"rootname":"gate_2"},{"rootport":12008,"rootname":"gate_3"},{"rootport":12009,"rootname":"gate_4"},{"rootport":12010,"rootname":"gate_5"}],"app":"game.netServer","log":"logs/net_1.log"},
+"net_2":{"netport":12012,"name":"net_2","remoteport":[{"rootport":12006,"rootname":"gate_1"},{"rootport":12007,"rootname":"gate_2"},{"rootport":12008,"rootname":"gate_3"},{"rootport":12009,"rootname":"gate_4"},{"rootport":12010,"rootname":"gate_5"}],"app":"game.netServer","log":"logs/net_2.log"},
+"net_3":{"netport":12013,"name":"net_3","remoteport":[{"rootport":12006,"rootname":"gate_1"},{"rootport":12007,"rootname":"gate_2"},{"rootport":12008,"rootname":"gate_3"},{"rootport":12009,"rootname":"gate_4"},{"rootport":12010,"rootname":"gate_5"}],"app":"game.netServer","log":"logs/net_3.log"},
+"net_4":{"netport":12014,"name":"net_4","remoteport":[{"rootport":12006,"rootname":"gate_1"},{"rootport":12007,"rootname":"gate_2"},{"rootport":12008,"rootname":"gate_3"},{"rootport":12009,"rootname":"gate_4"},{"rootport":12010,"rootname":"gate_5"}],"app":"game.netServer","log":"logs/net_4.log"},
+"net_5":{"netport":12015,"name":"net_5","remoteport":[{"rootport":12006,"rootname":"gate_1"},{"rootport":12007,"rootname":"gate_2"},{"rootport":12008,"rootname":"gate_3"},{"rootport":12009,"rootname":"gate_4"},{"rootport":12010,"rootname":"gate_5"}],"app":"game.netServer","log":"logs/net_5.log"}
+},
+"db":{
+"host":"127.0.0.1",
+"user":"root",
+"passwd":"wokejiaoyu668",
+"port":3306,
+"db":"woke",
+"charset":"utf8"
+},
+"memcached":{
+  "urls":["127.0.0.1:11211"],
+  "hostname":"woke"
+}
+}

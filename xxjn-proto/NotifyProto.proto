@@ -1,0 +1,27 @@
+package com.woke.proto;
+
+//https://developers.google.com/protocol-buffers/docs/proto
+//each field in the message definition has a unique numbered tag.
+//reserve the tags 1 through 15
+//required/optional/repeated
+//double/float/int32/int64/uint32/uint64/sint32/sint64/fixed32/fixed64/sfixed32/sfixed64/bool/string/bytes
+//[default = 10] 
+//enum 
+//==============================request==============================
+enum NotifyResult {
+    NOTIFY_SUCCESS		=0;//成功
+}
+
+message NotifyMessagePlay{
+	optional string message=1;//脚本
+	optional string auto_run=2;//自动运行 true false
+	optional string cycle_run=3;//循环运行 true false
+}
+
+message NotifyMessageSpeechString{
+	optional string message=1;//内容
+}
+
+message NotifyMessageEventUp{
+	optional int32 message=1;//内容
+}

@@ -1,0 +1,21 @@
+package com.woke.proto;
+//https://developers.google.com/protocol-buffers/docs/proto
+//each field in the message definition has a unique numbered tag.
+//reserve the tags 1 through 15
+//required/optional/repeated
+//double/float/int32/int64/uint32/uint64/sint32/sint64/fixed32/fixed64/sfixed32/sfixed64/bool/string/bytes
+//[default = 10] 
+//enum 
+//==============================request==============================
+enum BoxResult {
+    BOX_SUCCESS = 0;//成功
+}
+
+//领取章节星级奖励 60
+message BoxLoginRequest{
+	optional string box_id=1;//盒子的唯一ID
+	optional string token=2;//用于登录验证，通过box_id+secret
+}
+message BoxLoginResponse{
+	optional BoxResult result=1;
+}

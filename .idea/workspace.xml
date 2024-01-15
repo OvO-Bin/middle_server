@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="050820d3-b37f-4c11-9593-333be2f8fc10" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/game/notification" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/game/notification/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/core" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/game/notification/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/core/apns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/core/fcm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/core/notification_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/netapp" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/game/notification/netapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/netapp/forad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/notification_const.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/notification_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/r2" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/game/notification/r2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/r2/apns-dev.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/r2/apns-dis.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification/test_stdio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/notification_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/linux/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/linux/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/win/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/win/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/db/roledb.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/db/roledb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/mem/schedular.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/mem/schedular.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/proto/RoleProto_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/proto/RoleProto_pb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/scenes/core/red_dot/red_dot_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/scenes/core/red_dot/red_dot_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/scenes/core/rolemanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/scenes/core/rolemanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/scenes/core/roleproxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/scenes/core/roleproxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/scenes/core/storemanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/scenes/core/storemanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/scenes/nodeapp/activity_nod.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/scenes/nodeapp/activity_nod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/scenes/nodeapp/land_nod.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/scenes/nodeapp/land_nod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/scenes/schedular.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/scenes/schedular.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/sdk/ch/chconst.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/sdk/ch/chconst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/sdk/r2g/r2gconst.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/sdk/r2g/r2gconst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/tool/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/tool/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servernames.py" beforeDir="false" afterPath="$PROJECT_DIR$/servernames.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxjn-proto/RoleProto.proto" beforeDir="false" afterPath="$PROJECT_DIR$/xxjn-proto/RoleProto.proto" afterDir="false" />
+    </list>
+    <ignored path="xxjn_game_server.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1317893775">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="6" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bat" value="4" />
+          <entry key="conf" value="1" />
+          <entry key="json" value="16" />
+          <entry key="proto" value="7" />
+          <entry key="py" value="407" />
+          <entry key="sh" value="2" />
+          <entry key="txt" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bat" value="1" />
+          <entry key="JSON" value="16" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Python" value="407" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="410" />
+          <entry key="json" value="59" />
+          <entry key="proto" value="86" />
+          <entry key="py" value="3546" />
+          <entry key="txt" value="124" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="59" />
+          <entry key="PLAIN_TEXT" value="620" />
+          <entry key="Python" value="3546" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="xxjn_game_server" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.7056043">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/game/gate/core/usermanager.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="541">
+                  <caret line="134" column="35" lean-forward="true" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
+                  <folding>
+                    <element signature="e#14#25#0" expanded="true" />
+                    <marker date="1540276517306" expanded="true" signature="2330:2715" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/mem/netapp/memfromchildhandle.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="250">
+                  <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="59" />
+                  <folding>
+                    <element signature="e#44#116#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/gate/netapp/gatefromparenthandle.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="475">
+                  <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/mem/netapp/memtogatehandle.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="400">
+                  <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/util/nodeutil.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="25">
+                  <caret line="22" column="19" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/win/config.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="17" column="17" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/linux/config.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
+                  <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/gate/netapp/gatetonethandle.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="591">
+                  <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/gate/schedular.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="400">
+                  <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/game/gate/netapp/gatefromchildhandle.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="550">
+                  <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/net/initapp.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-159">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <element signature="e#15#68#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/start_game_server.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="925">
+                  <caret line="45" column="41" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="41" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/gate/nodeapp/box_node.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="451">
+                  <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#28#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/util/stringutil.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1475">
+                  <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/game/net/netapp/netfromparenthandle.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="21" column="16" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>remoteserviceHandle</find>
+      <find>BoxLoginRequest</find>
+      <find>12011</find>
+      <find>{&quot;rootport&quot;:12016,&quot;rootname&quot;:&quot;guild_res_war&quot;},</find>
+      <find>get_dbfront_init_state</find>
+      <find>memclient</find>
+      <find>send_db_sync_role</find>
+      <find>mclient</find>
+      <find>IllegalStateErrorIntercept</find>
+      <find>cloeClient</find>
+      <find>NetConnLost</find>
+      <find>pushData</find>
+      <find>send_message</find>
+      <find>import schedular</find>
+      <find>madmin</find>
+      <find>forwarding_0</find>
+      <find>forwarding</find>
+      <find>call method</find>
+      <find>onlines</find>
+      <find>UserManager:onlines</find>
+      <find>push_data</find>
+      <find>UserManager:gate</find>
+      <find>172.27.0.4</find>
+      <find>the box is not open</find>
+      <find>&quot;host&quot;:&quot;132.232.161.184&quot;,</find>
+      <find>print</find>
+      <find>net_conn_lost handle</find>
+      <find>script_to_box</find>
+      <find>net_conn_lost</find>
+      <find>close_client</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>money_vo.add</replace>
+      <replace>assert(not role)</replace>
+      <replace>role_data</replace>
+      <replace>:pass</replace>
+      <replace>rid</replace>
+      <replace>ship_equip</replace>
+      <replace>=20;//</replace>
+      <replace>战役</replace>
+      <replace>EVENT_NOT_OPEN</replace>
+      <replace>form</replace>
+      <replace>req[</replace>
+      <replace>args</replace>
+      <replace>data</replace>
+      <replace>exchange_num</replace>
+      <replace>xinmatai_fb_share_is_get</replace>
+      <replace>132.232.161.184</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Python27\Lib\site-packages\firefly-1.3.3dev_r0-py2.7.egg\gfirefly</dir>
+      <dir>C:\Python27\Lib</dir>
+      <dir>C:\xxjn_game_server</dir>
+      <dir>E:\xxjn_game_server\xxjn-proto</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/game/gate/netapp/scenceSendToNet.py" />
+        <option value="$PROJECT_DIR$/game/scenes/nodeapp/box_node.py" />
+        <option value="$PROJECT_DIR$/game/gate/netapp/gatechildhandle.py" />
+        <option value="$PROJECT_DIR$/game/net/protocol/datapack.py" />
+        <option value="$PROJECT_DIR$/game/net/netapp/gateToNetMethod.py" />
+        <option value="$PROJECT_DIR$/game/gate/netapp/gatetonet.py" />
+        <option value="$PROJECT_DIR$/game/scenes/core/scenesconst.py" />
+        <option value="$PROJECT_DIR$/Readme.txt" />
+        <option value="$PROJECT_DIR$/game/scenes/core/messageshow.py" />
+        <option value="$PROJECT_DIR$/game/mem/initconfig.py" />
+        <option value="$PROJECT_DIR$/game/memServer.py" />
+        <option value="$PROJECT_DIR$/game/mem/netapp/forad.py" />
+        <option value="$PROJECT_DIR$/game/scenes/initapp.py" />
+        <option value="$PROJECT_DIR$/game/gate/netapp/__init__.py" />
+        <option value="$PROJECT_DIR$/game/gate/initapp.py" />
+        <option value="$PROJECT_DIR$/game/mem/memconst.py" />
+        <option value="$PROJECT_DIR$/game/mem/netapp/SendToChild.py" />
+        <option value="$PROJECT_DIR$/game/gate/schedular.py" />
+        <option value="$PROJECT_DIR$/game/gate/service.py" />
+        <option value="$PROJECT_DIR$/game/mem/netapp/__init__.py" />
+        <option value="$PROJECT_DIR$/game/mem/sql/common_tables/game_config.py" />
+        <option value="$PROJECT_DIR$/game/mem/schedular.py" />
+        <option value="$PROJECT_DIR$/game/net/netconst.py" />
+        <option value="$PROJECT_DIR$/game/util/nodeutil.py" />
+        <option value="$PROJECT_DIR$/game/web/initconfig.py" />
+        <option value="$PROJECT_DIR$/game/web/initapp.py" />
+        <option value="$PROJECT_DIR$/game/gateServer.py" />
+        <option value="$PROJECT_DIR$/game/netServer.py" />
+        <option value="$PROJECT_DIR$/game/webServer.py" />
+        <option value="$PROJECT_DIR$/patches/mysql_connection.py" />
+        <option value="$PROJECT_DIR$/game/mem/sql/mysql_connection.py" />
+        <option value="$PROJECT_DIR$/game/mem/initapp.py" />
+        <option value="$PROJECT_DIR$/game/mem/netapp/memtogatehandle.py" />
+        <option value="$PROJECT_DIR$/game/mem/core/mempush.py" />
+        <option value="$PROJECT_DIR$/game/gate/gate_const.py" />
+        <option value="$PROJECT_DIR$/game/gate/netapp/gatefromchildhandle.py" />
+        <option value="$PROJECT_DIR$/game/gate/nodeapp/box_node.py" />
+        <option value="$PROJECT_DIR$/game/net/netapp/netfromclienthandle.py" />
+        <option value="$PROJECT_DIR$/servernames.py" />
+        <option value="$PROJECT_DIR$/start_game_server.py" />
+        <option value="$PROJECT_DIR$/extra_webapp.py" />
+        <option value="$PROJECT_DIR$/game/gate/netapp/gatetonethandle.py" />
+        <option value="$PROJECT_DIR$/game/net/netapp/netfromparenthandle.py" />
+        <option value="$PROJECT_DIR$/game/db/userdb.py" />
+        <option value="$PROJECT_DIR$/config/win/config.json" />
+        <option value="$PROJECT_DIR$/config/linux/config.json" />
+        <option value="$PROJECT_DIR$/game/web/handle.py" />
+        <option value="$PROJECT_DIR$/game/net/initapp.py" />
+        <option value="$PROJECT_DIR$/game/mem/netapp/memfromchildhandle.py" />
+        <option value="$PROJECT_DIR$/game/gate/netapp/gatefromparenthandle.py" />
+        <option value="$PROJECT_DIR$/game/gate/core/usermanager.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="272" />
+    <option name="y" value="55" />
+    <option name="width" value="1778" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyUnresolvedReferencesInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="linux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="gate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="gate" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="gate" type="462c0819:PsiDirectoryNode" />
+              <item name="netapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="mem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="mem" type="462c0819:PsiDirectoryNode" />
+              <item name="netapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="netapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="middle_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="middle_server" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="form&#9;null&#9;null&#10;lan&#9;FILE&#9;file://E:/server_code/xxjn_game_server/game/gate/netapp/land.py&#10;manu&#9;FILE&#9;file://E:/server_code/xxjn_game_server/game/scenes/nodeapp/manu_nod.py&#10;land&#9;FILE&#9;file://E:/server_code/xxjn_game_server/game/scenes/nodeapp/land_nod.py&#10;ta&#9;FILE&#9;file://E:/server_code/xxjn_game_server/game/mem/tables.py&#10;a&#9;FILE&#9;file://E:/server_code/xxjn_game_server/game/scenes/nodeapp/activity_nod.py&#10;activ&#9;FILE&#9;file://E:/server_code/xxjn_game_server/game/scenes/nodeapp/activity_nod.py&#10;role&#9;FILE&#9;file://E:/server_code/xxjn_game_server/game/scenes/core/roleproxy.py&#10;land.py&#9;FILE&#9;file://E:/server_code/xxjn_game_server/game/gate/netapp/land.py&#10;schedul&#9;null&#9;null&#10;land.&#9;FILE&#9;file://E:/xxjn_game_server/game/gate/netapp/land.py&#10;formu&#9;null&#9;null&#10;for&#9;RUN_CONFIGURATION&#9;formula" />
+    <property name="last_opened_file_path" value="E:/xxjn_game_server" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MagicArtProject\middle_server\game\mem\sql" />
+      <recent name="D:\MagicArtProject\middle_server\game\gate" />
+      <recent name="E:\server_code\xxjn_game_server\game\notification" />
+      <recent name="E:\server_code\xxjn_game_server\game\tool" />
+      <recent name="E:\server_code\xxjn_game_server\game\notification\core" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MagicArtProject\middle_server" />
+      <recent name="E:\server_code\xxjn_game_server\game\notification\r2" />
+      <recent name="E:\server_code\xxjn_game_server\game\tool" />
+      <recent name="E:\server_code\xxjn_game_server\game\notification\core" />
+      <recent name="E:\server_code\xxjn_game_server\game\notification" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.servernames">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="xxjn_game_server" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="apns" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="middle_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game/notification/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/notification/core/apns.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fcm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="middle_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game/notification/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/notification/core/fcm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="servernames" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="middle_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/servernames.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="middle_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game/tool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/tool/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in D:/MagicArtProject/middle_server/game/notification/test_stdio.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="middle_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game/notification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/game/notification/test_stdio.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="middle_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="middle_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="middle_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python tests.Unittests in D:/MagicArtProject/middle_server/game/notification/test_stdio.py" />
+      <item itemvalue="Python.apns" />
+      <item itemvalue="Python.fcm" />
+      <item itemvalue="Python.servernames" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.servernames" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.fcm" />
+        <item itemvalue="Python tests.Unittests in D:/MagicArtProject/middle_server/game/notification/test_stdio.py" />
+        <item itemvalue="Python.apns" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="050820d3-b37f-4c11-9593-333be2f8fc10" name="Default" comment="" />
+      <created>1480648544738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1480648544738</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_stdio_StdIOBackendTest_test_certificates - 2018.01.05 at 17h 14m 27s.xml">
+      <configuration name="Unittests for test_stdio.StdIOBackendTest.test_certificates" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_stdio_StdIOBackendTest_test_certificates - 2018.01.05 at 17h 33m 37s.xml">
+      <configuration name="Unittests for test_stdio.StdIOBackendTest.test_certificates" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_stdio_py - 2018.01.04 at 16h 04m 17s.xml">
+      <configuration name="Unittests in test_stdio.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_stdio_py - 2018.01.04 at 17h 09m 54s.xml">
+      <configuration name="Unittests in test_stdio.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_stdio_py - 2018.01.04 at 18h 56m 50s.xml">
+      <configuration name="Unittests in test_stdio.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_stdio_py - 2018.01.04 at 18h 59m 17s.xml">
+      <configuration name="Unittests in test_stdio.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_stdio_py - 2018.01.04 at 19h 00m 50s.xml">
+      <configuration name="Unittests in test_stdio.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_stdio_py - 2018.01.05 at 12h 17m 25s.xml">
+      <configuration name="Unittests in test_stdio.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_stdio_py - 2018.01.08 at 10h 26m 26s.xml">
+      <configuration name="Unittests in test_stdio.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_stdio_py - 2018.01.08 at 10h 27m 19s.xml">
+      <configuration name="Unittests in test_stdio.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" x="720" y="202" width="479" height="635" id="Project" order="0" sideWeight="0.83950615" visible="true" weight="0.19335511" />
+      <window_info id="Structure" order="1" weight="0.24973656" />
+      <window_info id="Favorites" order="2" sideWeight="0.16049382" side_tool="true" weight="0.19825707" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.6223958" visible="true" weight="0.23962656" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7359375" weight="0.2966805" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47916666" weight="0.16341992" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.3246888" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32864866" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.37760416" side_tool="true" weight="0.278481" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32780084" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.20850623" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.09754797" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="Data View" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" x="720" y="202" width="479" height="635" id="Project" order="0" sideWeight="0.83950615" visible="true" weight="0.18736383" />
+      <window_info id="Structure" order="1" weight="0.24973656" />
+      <window_info id="Favorites" order="2" sideWeight="0.16049382" side_tool="true" weight="0.19825707" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.6223958" visible="true" weight="0.15456432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7359375" weight="0.2966805" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47916666" weight="0.16341992" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.3246888" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32864866" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.37760416" side_tool="true" weight="0.278481" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32780084" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.20850623" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.09754797" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="Data View" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/game/sdk/oppo/oppoconst.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/patches/add_guild_rank.py" />
+    <entry file="file://$PROJECT_DIR$/patches/add_soul_strengthening.py" />
+    <entry file="file://$PROJECT_DIR$/game/netServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patches/guild_res_war.py" />
+    <entry file="file://$PROJECT_DIR$/patches/merge_server.py" />
+    <entry file="file://$PROJECT_DIR$/patches/player_log.py" />
+    <entry file="file://$PROJECT_DIR$/patches/servernames.py" />
+    <entry file="file://$PROJECT_DIR$/patches/online.py" />
+    <entry file="file://$PROJECT_DIR$/patches/nodeutil.py" />
+    <entry file="file://$PROJECT_DIR$/patches/mysql.py" />
+    <entry file="file://$PROJECT_DIR$/game/mem/sql/common_tables/game_config.py" />
+    <entry file="file://$PROJECT_DIR$/game/mem/sql/common_tables/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/mem/sql/mysql_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/mem/sql/patch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="160" column="71" lean-forward="true" selection-start-line="160" selection-start-column="71" selection-end-line="160" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/mem/initapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/mem/core/mempush.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/gate/gate_const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appmain.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servernames.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/firefly-1.3.3.dev0-py2.7.egg/gfirefly/netconnect/protoc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2750">
+          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxjn-proto/NotifyProto.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_master.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_for_start_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/gate/initapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/gate/core/user.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_webapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/net/netapp/netfromclienthandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/firefly-1.3.3.dev0-py2.7.egg/gfirefly/netconnect/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="449" column="21" selection-start-line="449" selection-start-column="21" selection-end-line="449" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/web/handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/db/userdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/util/dbto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/win/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/linux/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/gate/schedular.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start_game_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/util/stringutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/net/netapp/netfromparenthandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/gate/nodeapp/box_node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="41" />
+          <folding>
+            <element signature="e#28#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/gate/netapp/gatetonethandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/util/nodeutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/mem/netapp/memtogatehandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/mem/netapp/memfromchildhandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="59" />
+          <folding>
+            <element signature="e#44#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/gate/netapp/gatefromparenthandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/net/initapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#15#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/gate/netapp/gatefromchildhandle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/twisted-18.9.0rc1-py2.7-win-amd64.egg/twisted/python/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/gate/core/usermanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="134" column="35" lean-forward="true" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+            <marker date="1540276517306" expanded="true" signature="2330:2715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
